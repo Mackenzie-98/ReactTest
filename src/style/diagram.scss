@@ -346,13 +346,14 @@
 .nodes-panel {
   flex-direction: column;
   background-color: transparent;
-  padding: 1.5rem;
 
   .node-wrapper {
     display:flex;
-    margin-bottom: 1rem;
     align-items: center;
     justify-content: center;
+    padding-top: 30%;
+    padding-bottom: 30%;
+    height: 10px;
     .basic-node {
       width: 120px;
     }
@@ -386,7 +387,6 @@
   overflow: visible;
   font-size: 12px;
   width: 200px;
-  padding-top: 70px;
 
   .title{
     display: block;
